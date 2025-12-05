@@ -20,11 +20,11 @@ jobs:
 
       # === Backend ===
       - name: Install backend deps
-        working-directory: ./backend
+        working-directory: ./
         run: npm ci
 
       - name: Test backend
-        working-directory: ./backend
+        working-directory: ./
         run: npm test
 
       # === Frontend ===
