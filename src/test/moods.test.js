@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../index');
+const app = require('../app');
 
 describe('Mood API', () => {
   it('GET /api/moods returns an array', async () => {
